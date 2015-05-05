@@ -1,0 +1,244 @@
+
+A:link			{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; text-decoration: none; color: #666666;}
+A:visited		{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; text-decoration: none; color: #666666;}
+A:active		{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; text-decoration: none; color: #666666;}
+A:hover			{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; text-decoration: underline; color: #666666;}
+BODY{
+margin: 0px 0px;
+background: FFFFFF;
+font: 10px "Lucida Grande" Geneva, Verdana, Arial, Helvetica, sans-serif; 
+}	
+.activebar {
+width: 800;
+height: 23;
+background-image: url("activebar.gif");
+font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px; 
+font-weight: bold;
+text-align: center;
+}
+.top {
+width: 800;
+height: 20;
+background-image: url("T.gif");
+}
+.TTL {
+width: 24;
+height: 20;
+background-image: url("TTL.gif");
+}
+.TTR {
+width: 24;
+height: 20;
+background-image: url("TTR.gif");
+}
+.TR {
+width: 24;
+height: 23;
+background-image: url("TR.gif");
+}
+.TL {
+width: 24;
+height: 23;
+background-image: url("TL.gif");
+}
+.Left {
+width: 24;
+background-image: url("left.gif");
+}
+.right {
+width: 24;
+background-image: url("right.gif");
+}
+.logobg {
+width: 800;
+height: 56;
+background-image: url("logobg.gif");
+}
+.locationbar {
+width: 800;
+height: 20;
+background-image: url("locationbg.gif");
+text-align: center;
+font-family: "Lucida Sans Unicode", Geneva, Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+}
+.body {
+width: 800;
+background-image: url("BG.gif");
+padding: 0px 0px 15px 0px;
+font-family: "Lucida Sans Unicode", Lucida Grande, Geneva, Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+.BR {
+width: 24;
+height: 40;
+background-image: url("BR.gif");
+}
+.BL {
+width: 24;
+height: 40;
+background-image: url("BL.gif");
+}
+.Bottom {
+height: 40;
+width: 800;
+background-image: url("B.gif");
+}
+.button {
+font-family: "Lucida Sans Unicode", Lucida Grande, Geneva, Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+background-color: White;
+border: 1px solid #AAAAAA;
+}
+.sidetop {
+vertical-align: middle;
+background-image: url('sidetop.gif');
+font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: bold;
+color: black;
+height: 22px;
+text-align: center;
+}
+.sidemid {
+vertical-align: top;
+text-align: left;
+background-image: url('sidemid.gif');
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;	
+padding: 0px 5px 0px 5px;
+}
+.menuMain {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+}
+.usermenu {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+}
+.menuTop {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+}
+.sidebot {
+height: 15px;
+background-image: url('sidebottom.gif');
+}
+.sidetable {
+width: 165px; 
+border: 0px; 
+border-collapse: collapse;
+padding-top: 10px;
+}
+.seperator_side {
+height: 10px;
+}
+.newstable {
+width: 450;
+border: 0px;
+border-collapse: collapse;
+}
+.newstop {
+vertical-align: middle;
+background-image: url('newstop.gif');
+font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: bold;
+color: black;
+height: 22px;
+text-align: center;
+}
+.newsmid {
+vertical-align: top;
+text-align: left;
+background-image: url('newsmid.gif');
+font-family: Geneva, Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+padding: 10px 15px 10px 15px;
+}
+
+.conter_block_title {
+background-image: url('newstopx.gif'); background-repeat: no-repeat;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: bold;
+color: black;
+height: 22px;
+text-align: center;
+padding: 0px 0px 0px 0px;
+}
+.conter_block_content {
+vertical-align: top;
+text-align: left;
+font-family: Geneva, Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+border-bottom: solid 1px #cccccc;
+border-right: solid 1px #cccccc;
+border-left: solid 1px #cccccc;
+padding: 10px 15px 10px 15px;
+}
+
+.newsfont {
+vertical-align: top;
+text-align: left;
+font-family: Geneva, Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+}
+.newsname {
+vertical-align: top;
+text-align: right;
+background-image: url('newsmid.gif');
+font-family: Lucida Grande, Geneva, Verdana, Arial, Helvetica, sans-serif;
+padding: 0px 15px 0px 15px;
+font-size: 11px;
+}
+.newsbot {
+height: 15px;
+background-repeat: no-repeat;
+background-image: url('newsbottom.gif');
+}
+.post {
+font-size: 10px;
+font-family: Lucida Grande, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-align: left;
+padding-left: 5px;
+}
+.post-comment {
+background-image: url("comment-bg.gif");
+width: 450;
+font-size: 10px;
+height: 24px;
+font-family: Lucida Grande, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+padding: 0px;
+}
+.left2 {
+text-align: right;
+}
+.input, .textarea {
+background-image: url("inputbg.gif");
+background-position: left top;
+border: 1px solid #999999;
+padding: 2px;
+font-size: 10px;
+filter: Shadow(Color=#dddddd, Direction=135);
+}
+.color1 {
+background-image: url("comment-bg.gif");
+width: 450;
+font-size: 10px;
+font-family: Lucida Grande, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+padding: 5px;
+}
+.color2 {
+background-image: url("newsmid.gif");
+width: 450;
+font-size: 10px;
+font-family: Lucida Grande, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+padding: 5px;
+}
+.gototop {
+font-size: 8px;
+font-family: Lucida Grande, Geneva, Verdana, Arial, Helvetica, sans-serif; 
+color: #ddddddd;
+}

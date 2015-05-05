@@ -1,0 +1,118 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="Microsoft FrontPage 5.0" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_url}>/themes/nautis/style.css" />
+</head>
+<body>
+<table width="848" border="0" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td class="TTL"></td>
+<td class="top"></td>
+<td class="TTR"></td>
+</tr>
+<tr>
+<td class="TL"></td>
+<td class="activebar">
+</td>
+<td class="TR"></td>
+</tr>
+<tr>
+<td rowspan="3" class="left"></td>
+<td>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr valign="center">
+<td>
+<a href="#" title="Logo"><img src=""></a>
+</td>
+<td align="right">
+</td></tr></table>
+</td>
+<td rowspan="3" class="right"></td>
+</tr><tr valign="center">
+<td class="locationbar"></td>
+</tr><tr>
+<td class="body">
+<br>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tbody><tr>
+<td valign="top" align="right" width="170">
+<!-- Start left blocks loop -->
+<{foreach item=block from=$xoops_lblocks}>
+<table class="sidetable"><tbody><tr><td class="sidetop"><{$block.title}></td></tr>
+<tr><td class="sidemid">
+<{$block.content}>
+</td></tr><tr><td class="sidebot">
+</td></tr></tbody></table>
+<{/foreach}>
+<!-- Fim do "loop" dos blocos da esquerda -->
+</td><td valign="top" align="center" width="5">
+</td><td valign="top" align="center" width="460">
+<!-- Display center blocks if any -->
+<{if $xoops_showcblock == 1}>
+<!-- Start center-center blocks loop -->
+<{foreach item=block from=$xoops_ccblocks}>
+<table class="newstable">
+<tbody><tr><td class="newstop"><{$block.title}></td></tr>
+<tr><td class="newsmid">
+<{$block.content}>
+</td></tr>
+<tr><td class="newsbot">
+</td></tr></tbody></table>
+<{/foreach}>
+<!-- End center-center blocks loop -->
+<!-- Start center-left blocks loop -->
+<{foreach item=block from=$xoops_clblocks}>
+<table class="newstable">
+<tbody><tr><td class="newstop"><{$block.title}></td></tr>
+<tr><td class="newsmid">
+<{$block.content}>
+</td></tr>
+<tr><td class="newsbot">
+</td></tr></tbody></table>
+<{/foreach}>
+<!-- End center-left blocks loop -->
+<!-- Start center-right blocks loop -->
+<{foreach item=block from=$xoops_crblocks}>
+<table class="newstable">
+<tbody><tr><td class="newstop"><{$block.title}></td></tr>
+<tr><td class="newsmid">
+<{$block.content}>
+</td></tr>
+<tr><td class="newsbot">
+</td></tr></tbody></table>
+<{/foreach}>
+<!-- End center-right blocks loop -->
+<{/if}>
+<!-- End display center blocks -->
+<div><{$xoops_contents}></div>
+</td><td valign="top" align="center" width="5">
+</td>
+<td valign="top" align="left" width="170">
+<!-- Início dos blocos da direita -->
+<{foreach item=block from=$xoops_rblocks}>
+<table class="sidetable"><tbody><tr>
+<td class="sidetop"><{$block.title}></td>
+</tr><tr><td class="sidemid">
+<br>
+<{$block.content}>
+<br>
+</td></tr>
+<tr><td class="sidebot">
+</td></tr></tbody></table>
+<{/foreach}>
+<!-- End right blocks loop -->
+</td></tr></tbody></table>
+</td></tr><tr><td class="BL"></td><td class="bottom"></td><td class="BR"></td></tr></tbody></table>
+<!-- End of page -->
+</body></html>
